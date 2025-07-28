@@ -2,15 +2,20 @@
 
 Red Rocket test app
 
-## Getting Started
+### Code gen
 
-This project is a starting point for a Flutter application.
+To execute code generation use:
+```
+flutter pub run build_runner build --delete-conflicting-outputs
+```
 
-A few resources to get you started if this is your first Flutter project:
+### To build app for stores
+### iOS ( this version was created on windows os, so iOS build was not implemented)
+```
+flutter build ipa --flavor test_app --release
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Android ( app was tested with android emulator API 35, and Pixel 8 )
+```
+flutter build appbundle --flavor test_app --release
+```
