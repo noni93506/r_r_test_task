@@ -1,0 +1,50 @@
+{
+  "unexpectedError": "Something went wrong. Please, check your internet connection and try again later",
+  "@unexpectedError": {
+    "type": "text"
+  },
+  "noInternetConnectionError": "There is no Internet connection. Please, try again later",
+  "@noInternetConnectionError": {
+    "type": "text"
+  },
+  "emailValidatorError": "Email is not valid",
+  "@emailValidatorError": {
+    "type": "text"
+  },
+  "passwordValidatorError": "Password is not valid",
+  "@passwordValidatorError": {
+    "type": "text"
+  },
+  "loginScreenEmail": "Email",
+  "@loginScreenEmail": {
+    "type": "text"
+  },
+  "loginScreenPassword": "Password",
+  "@loginScreenPassword": {
+    "type": "text"
+  },
+  "loginScreenTitle": "Login screen",
+  "@loginScreenTitle": {
+    "type": "text"
+  },
+  "loginScreenCheckBox": "Stay in profile",
+  "@loginScreenCheckBox": {
+    "type": "text"
+  },
+  "loginScreenButton": "Login",
+  "@loginScreenButton": {
+    "type": "text"
+  },
+  "homeScreenAppBapTitle": "Home Screen",
+  "@homeScreenAppBapTitle": {
+    "type": "text"
+  },
+  "homeScreenEmailTitle": "User email : ",
+  "@homeScreenEmailTitle": {
+    "type": "text"
+  },
+  "logOut": "Log OUT",
+  "@logOut": {
+    "type": "text"
+  }
+}
